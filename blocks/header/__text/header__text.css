@@ -4,3 +4,13 @@
   font-size: 23px;
 font-weight: 600;
 }
+@media screen and (min-width: 375px) {
+  .header__text {
+    font-size: 25px;
+  }
+}
+@media screen and (min-width: 425px) {
+  .header__text {
+    font-size: 28px;
+  }
+}

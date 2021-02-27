@@ -10,3 +10,4 @@
 HTML, CSS3.
 
 ## Ссылка на github pages:
+https://maximkin-alek.github.io/textile/
