@@ -1,3 +1,12 @@
+@import url('./__menu/main__menu.css');
+@import url('./__title/main__title.css');
+@import url('./__subtitle/main__subtitle.css');
+@import url('./__list/main__list.css');
+@import url('./__link/main__link.css');
+@import url('./__image/main__image.css');
+
 .main {
+  display: flex;
   width: 100%;
+  padding-bottom: 80px;
 }

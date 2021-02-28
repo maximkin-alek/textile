@@ -2,3 +2,10 @@
   width: 100%;
   height: auto;
 }
+
+@media screen and (min-width: 1320px) {
+  .card__image {
+    width: 209px;
+    height: 209px;
+  }
+}

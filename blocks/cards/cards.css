@@ -4,3 +4,16 @@
   grid-template-columns: repeat(2, 1fr);
   gap: 16px;
 }
+
+@media screen and (min-width: 550px) {
+  .cards {
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: max-content;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .cards {
+    padding: 40px 0 0 14px;
+    gap: 37px 13px;
+  }
+}

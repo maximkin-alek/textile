@@ -1,4 +1,34 @@
 .header__link {
   width: 49%;
+}
 
+@media screen and (min-width: 550px) {
+  .header__link {
+    height: 20px;
+    font-size: 7px;
+    font-weight: 400;
+    width: 52%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header__link {
+    height: 23px;
+    font-size: 9px;
+    width: 48%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .header__link {
+    font-size: 12px;
+    line-height: 30px;
+    height: 30px;
+  }
+}
+@media screen and (min-width: 1320px) {
+  .header__link {
+    font-size: 14px;
+    height: 44px;
+  }
 }
